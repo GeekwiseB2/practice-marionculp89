@@ -30,7 +30,7 @@
   border: 2px solid black;
 }
 .promo {
-  background-color: orange;
+  background-color: rgb(221, 143, 40);
   padding: 20px;
   height: 250px;
   border: 2px solid black;
@@ -42,3 +42,15 @@
   height: 250px;
   border: 2px solid black;
 }
+
+  @media screen and (max-width : 768px) {
+    .promo {
+      background-color: rgb(49, 161, 129);
+    }
+}
+
+  @media screen and (max-width: 385px) {
+    .promo {
+      background-color: rgb(29, 182, 10)
+    }
+  }
